@@ -14,6 +14,7 @@ public class Question1{
                 {
                     count++;
                 }
+                
             }
         }
         if(count>0)
