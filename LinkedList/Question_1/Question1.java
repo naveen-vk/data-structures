@@ -35,7 +35,7 @@ class Question1
         Node current = head;
  
         // take an empty set to store linked list nodes for future reference
-        Set<Integer> set = new HashSet<>();
+       
  
         // do till the linked list is empty
         while (current != null)
