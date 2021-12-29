@@ -4,7 +4,7 @@ public class imple1 {
     
     //Push method
     static void stackPush(Stack<Integer> stack1){
-        for(int i=0;i<=13;i++){
+        for(int i=1;i<13;i++){
             stack1.push(i);
         }
     }
@@ -17,7 +17,7 @@ public class imple1 {
 
     //pop Method
     static void stackPop(Stack<Integer> stack1){
-        for(int i=0;i<10;i++){
+        for(int i=1;i<10;i++){
             stack1.pop();
         }
     }
@@ -42,5 +42,9 @@ public class imple1 {
         stackPop(stack1);
         stackPeek(stack1);
         stackSearch(stack1,2);
+        System.out.println(stack1.size());
+        while(!stack1.isEmpty()){
+            System.out.println(stack1.pop());
+        }
     }
 }

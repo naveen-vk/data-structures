@@ -46,7 +46,6 @@ public class question5 {
         q.push(98);
         q.push(92);
         q.push(23);
-
         q.sort();
         q.display();
     }    
